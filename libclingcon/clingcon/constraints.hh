@@ -183,6 +183,7 @@ private:
 
 class DistinctElement {
 public:
+    DistinctElement() { }
     DistinctElement(val_t fixed, size_t size, co_var_t *elements, bool sort);
 
     //! Get the fixed part of the term.
